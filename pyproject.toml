@@ -29,7 +29,5 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-install_requires=['docutils', 'sphinx']
-
-
-
+docutils = ["*"]
+sphinx = ["*"]
