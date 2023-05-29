@@ -24,8 +24,8 @@ classifiers = [
 ]
 packages = [
     { include = "sphinx_tsegsearch" },
-    { include = "sphinx_tsegsearch/static/*.js" },
-    { include = "sphinx_tsegsearch/templates/*.html" },
+    { include = "sphinx_tsegsearch/static" },
+    { include = "sphinx_tsegsearch/templates" },
 ]
 
 [tool.poetry.dependencies]
